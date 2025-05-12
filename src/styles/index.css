@@ -419,6 +419,9 @@ code {
     gap: 10px;
     padding: 10px;
   }
+  .button-slider {
+    display: none;
+  }
 }
 
 @media (max-width: 450px) {
