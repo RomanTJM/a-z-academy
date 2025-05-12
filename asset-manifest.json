@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/a-z-academy/static/css/main.72c7b506.css",
+    "main.css": "/a-z-academy/static/css/main.f331ddfb.css",
     "main.js": "/a-z-academy/static/js/main.b5cd30ee.js",
     "index.html": "/a-z-academy/index.html",
-    "main.72c7b506.css.map": "/a-z-academy/static/css/main.72c7b506.css.map",
+    "main.f331ddfb.css.map": "/a-z-academy/static/css/main.f331ddfb.css.map",
     "main.b5cd30ee.js.map": "/a-z-academy/static/js/main.b5cd30ee.js.map"
   },
   "entrypoints": [
-    "static/css/main.72c7b506.css",
+    "static/css/main.f331ddfb.css",
     "static/js/main.b5cd30ee.js"
   ]
 }
