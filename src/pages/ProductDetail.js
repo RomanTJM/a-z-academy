@@ -96,7 +96,13 @@ const ProductDetail = ({ addToCart }) => {
       <h1>{product.name}</h1>
       <div className="product-content">
         <div className="product-images">
-          <button onClick={handlePrevImage} style={{fontSize: '2rem', background: 'none', border: 'none', color: '#3ecfff', cursor: 'pointer'}} aria-label="Предыдущее изображение">◀</button>
+        <button 
+            className="button-slider" 
+            onClick={handlePrevImage}  
+            aria-label="Предыдущее изображение"
+          >
+            ◀
+          </button>
           <img 
             src={selectedColor.images[currentImageIndex]} 
             alt={`${product.name} ${selectedColor.name}`} 
@@ -104,7 +110,13 @@ const ProductDetail = ({ addToCart }) => {
             onTouchStart={handleTouchStart}
             onTouchEnd={handleTouchEnd}
           />
-          <button onClick={handleNextImage} style={{fontSize: '2rem', background: 'none', border: 'none', color: '#3ecfff', cursor: 'pointer'}} aria-label="Следующее изображение">▶</button>
+          <button
+            className="button-slider" 
+            onClick={handleNextImage} 
+            aria-label="Предыдущее изображение"
+          >
+            ▶
+          </button>
         </div>
         <div className="image-thumbnails">
           {selectedColor.images.map((image, index) => (
